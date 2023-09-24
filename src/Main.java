@@ -1,33 +1,4 @@
-//import java.lang.*;
-//import java.util.Collections;
-//import java.util.List;
-//import java.util.Scanner;
-//
-//public class Main {
-//
-//    public static void main(String[] args) {
-//        Scanner in = new Scanner(System.in);
-//        int nb = 0;
-//        String str;
-//        char ch2;
-//        char maj = (char) 83;
-//        char mij = (char) 115;
-//        System.out.println("Enter un word:");
-//        str = in.nextLine();
-//        String str2 = "";
-//
-//            for(int i=0; i<str.length(); i++) {
-//                char ch1 = str.charAt(i);
-//                if(ch1 == maj) {
-//                    ch2 = mij;
-//                    nb += 1;
-//                }else{
-//                    ch2 = ch1;
-//
-//                }
-//                str2 += ch2;
-//            }
-//        System.out.println("Answer Task3:" + str2)
+
 import java.lang.*;
 import java.util.Scanner;
 public class Main {
