@@ -12,7 +12,7 @@ public class Main {
         String ch5 = ch0.toLowerCase();
         char ch2 = ch4.charAt(0);
         char ch3 = ch5.charAt(0);
-        System.out.println("Enter un word:");
+        System.out.println("Enter a word:");
         str = in.nextLine();
 
         for (int i = 0; i < str.length(); i++) {
@@ -21,7 +21,7 @@ public class Main {
                 nb += 1;
                 it += 1;
                 if (nb == 1) {
-                    if (i == str.length() - 1) { // if the character is the last one in the string, no need compare to next one, so we stop
+                    if (i == str.length() - 1) {                        // if the character is the last one in the string, no need compare to next one, so we stop
                         str2 += ch1;
                         str2 += "{" + nb + "}";
                     } else {
@@ -54,7 +54,7 @@ public class Main {
             } else {
                 System.out.println("Occurence of " + ch2 + "/" + ch3+":");
                 System.out.println(str2);
-                //System.out.println(it+" "+ch2);
+                
             }
         }
     }
