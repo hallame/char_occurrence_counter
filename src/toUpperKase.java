@@ -5,7 +5,7 @@ public class toUpperKase {
             Scanner in = new Scanner(System.in);
             String str1, str2 = "";
             String str0;
-            System.out.println("What letter do you want to put to UpperCase: ");
+            System.out.println("Enter the letter you want to put to UpperCase: ");
             str0 = in.nextLine();
             char ch0 = str0.charAt(0);
             String ch1 = str0.toUpperCase();
