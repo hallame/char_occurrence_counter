@@ -21,7 +21,7 @@ public class Main {
                 nb += 1;
                 it += 1;
                 if (nb == 1) {
-                    if (i == str.length() - 1) {                        // if the character is the last one in the string, no need compare to next one, so we stop
+                    if (i == str.length() - 1) {                        // if the character is the last one in the string, no need to compare to next one, so we stop
                         str2 += ch1;
                         str2 += "{" + nb + "}";
                     } else {
